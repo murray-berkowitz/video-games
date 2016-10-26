@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif; }
+
+.span2 {
+  width: 15.83333%;
+  float: left; }
+
+.span3 {
+  width: 24.25%;
+  float: left; }
+
+.span4 {
+  width: 32.66667%;
+  float: left; }
+
+.span5 {
+  width: 41.08333%;
+  float: left; }
+
+.span6 {
+  width: 49.5%;
+  float: left; }
+
+.span7 {
+  width: 57.91667%;
+  float: left; }
+
+.span8 {
+  width: 66.33333%;
+  float: left; }
+
+.span9 {
+  width: 74.75%;
+  float: left; }
+
+.span10 {
+  width: 83.16667%;
+  float: left; }
+
+.span11 {
+  width: 91.58333%;
+  float: left; }
+
+.span-no-mar2 {
+  width: 16.66667%;
+  float: left; }
+
+.span-no-mar3 {
+  width: 25%;
+  float: left; }
+
+.span-no-mar4 {
+  width: 33.33333%;
+  float: left; }
+
+.span-no-mar5 {
+  width: 41.66667%;
+  float: left; }
+
+.span-no-mar6 {
+  width: 50%;
+  float: left; }
+
+.span-no-mar7 {
+  width: 58.33333%;
+  float: left; }
+
+.span-no-mar8 {
+  width: 66.66667%;
+  float: left; }
+
+.span-no-mar9 {
+  width: 75%;
+  float: left; }
+
+.span-no-mar10 {
+  width: 83.33333%;
+  float: left; }
+
+.span-no-mar11 {
+  width: 91.66667%;
+  float: left; }
+
+.span12 {
+  width: 100%;
+  float: left; }
+
+.col {
+  margin-left: 1%; }
+
+.center-text {
+  text-align: center; }
+
+.center-text:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  /* Adjusts for spacing */ }
+
+.centered {
+  display: inline-block;
+  vertical-align: middle; }
+
+.header {
+  height: 7vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.55);
+  z-index: 9999;
+  position: absolute; }
+  .header h1 {
+    color: black;
+    margin: 0;
+    padding: 0 15px;
+    opacity: 1 !important; }
+  .header .border {
+    border: 1px solid black; }
+
+.top-section {
+  height: 100vh; }
+  .top-section .span-no-mar2 {
+    height: 100%; }
+  .top-section #game1 {
+    background-image: url(../img/ffxv.jpg);
+    overflow: hidden;
+    background-position: 30% bottom;
+    background-repeat: no-repeat; }
+  .top-section #game3 {
+    background-image: url(../img/tlg.jpg);
+    overflow: hidden;
+    background-position: 45% top;
+    background-repeat: no-repeat; }
+  .top-section #game2 {
+    background-image: url(../img/p5.jpg);
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .top-section #game4 {
+    background-image: url(../img/nier.jpg);
+    overflow: hidden;
+    background-position: 68% bottom;
+    background-repeat: no-repeat; }
+  .top-section #game5 {
+    background-image: url(../img/horizon.jpg);
+    overflow: hidden;
+    background-position: 15% top;
+    background-repeat: no-repeat; }
+  .top-section #game6 {
+    background-image: url(../img/kh.png);
+    overflow: hidden;
+    background-position: 60% center;
+    background-repeat: no-repeat; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,103 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+}
+@for $i from 2 through 11 {
+	.span#{$i} {
+		$x : 12/$i;
+		width: ((100-$x+1)/$x)*1%;
+		float:left;
+	}
+}
+@for $i from 2 through 11 {
+	.span-no-mar#{$i} {
+		$x : 12/$i;
+		width: ((100)/$x)*1%;
+		float:left;
+	}
+}
+.span12 {
+	width:100%;
+	float:left;
+}
+.col {
+	margin-left:1%;
+}
+.center-text {
+	text-align:center;
+}
+
+.center-text {
+	&:before{  
+	  content: '';
+	  display: inline-block;
+	  height: 100%;
+	  vertical-align: middle;
+	  margin-right: -0.25em; /* Adjusts for spacing */
+	}
+}
+
+.centered {
+	display: inline-block;
+  	vertical-align: middle;
+}
+
+.header {
+	height:7vh;
+	width:100%;
+	background-color:rgba(255,255,255,.55);
+	z-index:9999;
+	position:absolute;
+	h1 {
+		color:black;
+		margin:0;
+		padding:0 15px;
+		opacity:1 !important;
+	}
+	.border {
+		border:1px solid black;
+	}
+}
+.top-section {
+	height:100vh;
+	.span-no-mar2 {
+		height:100%;
+	}
+	#game1 {
+		background-image: url(../img/ffxv.jpg);
+		overflow:hidden;
+		background-position:30% bottom;
+		background-repeat: no-repeat;
+	}
+	#game3 {
+		background-image: url(../img/tlg.jpg);
+		overflow:hidden;
+		background-position:45% top;
+		background-repeat: no-repeat;
+	}
+	#game2 {
+		background-image: url(../img/p5.jpg);
+		overflow:hidden;
+		background-position:center center;
+		background-repeat: no-repeat;
+	}
+	#game4 {
+		background-image: url(../img/nier.jpg);
+		overflow:hidden;
+		background-position:68% bottom;
+		background-repeat: no-repeat;
+	}
+	#game5 {
+		background-image: url(../img/horizon.jpg);
+		overflow:hidden;
+		background-position:15% top;
+		background-repeat: no-repeat;
+	}
+	#game6 {
+		background-image: url(../img/kh.png);
+		overflow:hidden;
+		background-position:60% center;
+		background-repeat: no-repeat;
+	}
+}
