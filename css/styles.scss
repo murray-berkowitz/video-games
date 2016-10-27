@@ -17,6 +17,8 @@ body {
 		float:left;
 	}
 }
+
+
 .span12 {
 	width:100%;
 	float:left;
@@ -64,40 +66,67 @@ body {
 	.span-no-mar2 {
 		height:100%;
 	}
+	.blur {
+		filter: blur(4px);
+		-webkit-transition: .75s -webkit-filter ;
+		-moz-transition: .75s -moz-filter ;
+		-ms-transition: .75s -ms-filter ;
+		-o-transition: .75s -o-filter ;
+		transition: .75s filter ;
+		&:hover {
+			cursor:pointer;
+			filter:blur(0);
+			-webkit-transition: .75s -webkit-filter ;
+			-moz-transition: .75s -moz-filter ;
+			-ms-transition: .75s -ms-filter ;
+			-o-transition: .75s -o-filter ;
+			transition: .75s filter ;
+		}
+	}
 	#game1 {
-		background-image: url(../img/ffxv.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/ffxv.jpg);
 		overflow:hidden;
 		background-position:30% bottom;
 		background-repeat: no-repeat;
+		background-size:cover;
 	}
 	#game3 {
-		background-image: url(../img/tlg.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/tlg.jpg);
 		overflow:hidden;
 		background-position:45% top;
 		background-repeat: no-repeat;
+		background-size:cover;
 	}
 	#game2 {
-		background-image: url(../img/p5.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/p5.jpg);
 		overflow:hidden;
 		background-position:center center;
 		background-repeat: no-repeat;
+		background-size:cover;
 	}
 	#game4 {
-		background-image: url(../img/nier.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/nier.jpg);
 		overflow:hidden;
 		background-position:68% bottom;
 		background-repeat: no-repeat;
+		background-size:cover;
 	}
 	#game5 {
-		background-image: url(../img/horizon.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/horizon.jpg);
 		overflow:hidden;
 		background-position:15% top;
 		background-repeat: no-repeat;
+		background-size:cover;
 	}
 	#game6 {
-		background-image: url(../img/kh.png);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/kh.png);
 		overflow:hidden;
 		background-position:60% center;
 		background-repeat: no-repeat;
+		background-size:cover;
+
+		&:hover {
+
+		}
 	}
 }

@@ -123,35 +123,56 @@ body {
   height: 100vh; }
   .top-section .span-no-mar2 {
     height: 100%; }
+  .top-section .blur {
+    filter: blur(4px);
+    -webkit-transition: 0.75s -webkit-filter;
+    -moz-transition: 0.75s -moz-filter;
+    -ms-transition: 0.75s -ms-filter;
+    -o-transition: 0.75s -o-filter;
+    transition: 0.75s filter; }
+    .top-section .blur:hover {
+      cursor: pointer;
+      filter: blur(0);
+      -webkit-transition: 0.75s -webkit-filter;
+      -moz-transition: 0.75s -moz-filter;
+      -ms-transition: 0.75s -ms-filter;
+      -o-transition: 0.75s -o-filter;
+      transition: 0.75s filter; }
   .top-section #game1 {
-    background-image: url(../img/ffxv.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/ffxv.jpg);
     overflow: hidden;
     background-position: 30% bottom;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
   .top-section #game3 {
-    background-image: url(../img/tlg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/tlg.jpg);
     overflow: hidden;
     background-position: 45% top;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
   .top-section #game2 {
-    background-image: url(../img/p5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/p5.jpg);
     overflow: hidden;
     background-position: center center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
   .top-section #game4 {
-    background-image: url(../img/nier.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/nier.jpg);
     overflow: hidden;
     background-position: 68% bottom;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
   .top-section #game5 {
-    background-image: url(../img/horizon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/horizon.jpg);
     overflow: hidden;
     background-position: 15% top;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
   .top-section #game6 {
-    background-image: url(../img/kh.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/kh.png);
     overflow: hidden;
     background-position: 60% center;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 /*# sourceMappingURL=styles.css.map */
