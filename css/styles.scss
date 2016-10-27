@@ -18,7 +18,17 @@ body {
 	}
 }
 
-
+.full {
+	width:100% !important;
+	transition: 2s width;
+	z-index:45;
+	position:absolute;
+	left:0;
+	top:0;
+	overflow: visible !important;
+	background-position:center center !important;
+	height:100vh;
+}
 .span12 {
 	width:100%;
 	float:left;
@@ -68,65 +78,91 @@ body {
 	}
 	.blur {
 		filter: blur(4px);
-		-webkit-transition: .75s -webkit-filter ;
-		-moz-transition: .75s -moz-filter ;
-		-ms-transition: .75s -ms-filter ;
-		-o-transition: .75s -o-filter ;
-		transition: .75s filter ;
+		-webkit-transition: .25s -webkit-filter ;
+		-moz-transition: .25s -moz-filter ;
+		-ms-transition: .25s -ms-filter ;
+		-o-transition: .25s -o-filter ;
+		transition: .25s filter ;
 		&:hover {
 			cursor:pointer;
 			filter:blur(0);
-			-webkit-transition: .75s -webkit-filter ;
-			-moz-transition: .75s -moz-filter ;
-			-ms-transition: .75s -ms-filter ;
-			-o-transition: .75s -o-filter ;
-			transition: .75s filter ;
+			-webkit-transition: .25s -webkit-filter ;
+			-moz-transition: .25s -moz-filter ;
+			-ms-transition: .25s -ms-filter ;
+			-o-transition: .25s -o-filter ;
+			transition: .25s filter ;
 		}
 	}
 	#game1 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/ffxv.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)),url(../img/ffxv.jpg);
 		overflow:hidden;
 		background-position:30% bottom;
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
+	.hover1 {
+		&:hover {
+			background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../img/ffxv.jpg);
+		}
+	}
 	#game3 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/tlg.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)),url(../img/tlg.jpg);
 		overflow:hidden;
 		background-position:45% top;
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
+	.hover3 {
+		&:hover {
+			background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../img/tlg.jpg);
+		}
+	}
 	#game2 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/p5.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)),url(../img/p5.jpg);
 		overflow:hidden;
 		background-position:center center;
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
+	.hover2{
+		&:hover {
+			background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../img/p5.jpg);
+		}
+	}
 	#game4 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/nier.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)),url(../img/nier.jpg);
 		overflow:hidden;
 		background-position:68% bottom;
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
+	.hover4 {
+		&:hover {
+			background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../img/nier.jpg);
+		}
+	}
 	#game5 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/horizon.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)),url(../img/horizon.jpg);
 		overflow:hidden;
 		background-position:15% top;
 		background-repeat: no-repeat;
 		background-size:cover;
 	}
+	.hover5 {
+		&:hover {
+			background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../img/horizon.jpg);
+		}
+	}
 	#game6 {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/kh.png);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.65)),url(../img/kh.png);
 		overflow:hidden;
 		background-position:60% center;
 		background-repeat: no-repeat;
 		background-size:cover;
-
+	}
+	.hover6 {
 		&:hover {
-
+			background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(../img/kh.png);
 		}
 	}
 }
